@@ -23,7 +23,7 @@ sex_d ={0:"Kobieta", 1:"Mężczyzna"} #   1. Stwórz zmienną sex_d oraz wprowad
 
 def main():
 
-	st.set_page_config(page_title="???")
+	st.set_page_config(page_title="TitanicModel")
 	overview = st.container()
 	left, right = st.columns(2)
 	prediction = st.container()
